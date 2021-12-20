@@ -1,0 +1,94 @@
+/*------------------------- Formulário -------------------------*/
+
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7vw 20vw;
+}
+  
+section div.metade{
+  width: 50%;
+}
+
+section#contato{
+  margin: 70px 0px 0px 0px;
+  background-color: #e2f0f9;
+  display: flex;
+  flex-direction: column;
+}
+  
+section#contato form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 32px; 
+}
+  
+section#contato div.linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  
+section#contato div.linha_dois div{
+  width: 100%;
+    
+}
+section#contato div.linha div{
+  width: 48%;
+}
+  
+section#contato input, select, textarea{
+  width: 100%;
+  border: 2px solid #286fb4;
+  border-radius: 5px;
+  padding:16px;
+  background: none;
+  margin: 4px 0 16px 0;  
+}
+  
+section#contato textarea{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+  resize: none;
+}
+  
+section#contato button{
+  width: 48%;
+}
+  
+.grid-container-inicial {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item-inicial{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+}
+
+/*------------------------- Botão -------------------------*/
+
+button{
+  border: none;
+  padding: 16px 32px;
+  background-color: #df4c73;
+  color: white;
+  font-weight: bold;
+}
+
+/*------------------------- Footer -------------------------*/
+
+footer{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #f3ffbd;
+  width:100%;
+}

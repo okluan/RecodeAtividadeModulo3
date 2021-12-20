@@ -1,0 +1,36 @@
+/*------------------------- Seção -------------------------*/
+.grid-container-inicial {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 70% 3fr;
+  background-color: white;
+  padding: 10px;
+}
+.grid-item-inicial-escrita{
+  background-color: white;
+  border:  white;
+  padding: 2px;
+  font-size: 16px;
+  text-align: justify;
+}
+.grid-container-final{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  padding: 10px;
+}
+.grid-item-final {
+  background-color: white;
+  border: white;
+  padding: 2px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*------------------------- Footer -------------------------*/
+footer{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #f3ffbd;
+  width:100%;
+}

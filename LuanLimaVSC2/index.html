@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Go Tour </title>
+
+    <!-- Fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wgh@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilo-->
+    <link href = "../LuanLimaVSC2/css/cabecalhogeral.css" rel= "stylesheet">
+    <link href = "../LuanLimaVSC2/css/styleindex.css" rel= "stylesheet">
+
+</head>
+<body>
+
+    <!-- Cabeçalho-->
+    <header>
+        <h1>
+            <img src="../LuanLimaVSC2/imagens/logoviagens.png" alt="Viagens" width="30" height="30" style="padding: 0%; align-items: center;">
+           Go Tour.
+        </h1>
+        <nav>
+          <ul>
+
+            <li class = "ativo"> 
+              <a href = "index.html"> Início </a>
+            </li>
+            <li> 
+              <a href = "sobre.html"> Sobre</a>
+            </li>
+            <li> 
+                <a href = "destino.html">Destino</a>
+            </li>
+            <li> 
+                <a href = "promocao.html">Promoçao</a>
+            </li>
+            <li> 
+                <a href = "contato.html">Contato</a>
+            </li>
+
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+
+      <!-- Carrosel -->
+      <!-- The content which is placed at the center of the carousel -->
+      <div class="container">
+        <h1 class="main-heading">Responsive Carousel using CSS</h1>
+        <div class="content">
+            <!-- The content which is placed at the center of the carousel -->
+            <div class="carousel-content">
+                <h1 class="carousel-heading">
+                  <img src="../LuanLimaVSC2/imagens/logoviagens.png" alt="Viagens" width="30" height="30" style="padding: 0%; align-items: center;">
+                  Go Tour.
+                </h1>
+            </div>
+            <div class="slideshow">
+                <!-- carousel control buttons -->
+                <button class="slide-btn slide-btn-1"></button>
+                <button class="slide-btn slide-btn-2"></button>
+                <button class="slide-btn slide-btn-3"></button>
+                <button class="slide-btn slide-btn-4"></button>
+                <!-- carousel wrapper which contains all images -->
+                <div class="slideshow-wrapper">
+                    <div class="slide">
+                        <img class="slide-img"
+                            src="imagens/ceara.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="slide-img"src="imagens/fernando.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="slide-img" src="imagens/riodejaneiro.jpg">
+                    </div>
+                    <div class="slide">
+                        <img class="slide-img" src= "imagens/parati.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+   <!--Viagens-->
+      <div class="container_viagens">
+        <h2 style=" text-align: center; margin: 50px;"> DESTINOS</h2>
+        <main class="grid">
+          <article>
+            <img src="imagens/ceara.jpg" width="100%" height="50%" alt="Sample photo">
+            <div class="text">
+              <h3 style="margin: 15px;">Praia das Fontes</h3>
+              <p style="margin: 15px;">Fortaleza - Ceará - Brasil</p>
+            </div>
+            <button-ver> Ver Mais </button-ver>
+          </article>
+          <article>
+            <img src="imagens/fernando.jpg" width="100%" height="50%"  alt="Sample photo">
+            <div class="text">
+              <h3 style="margin: 15px;">Baía do Sancho</h3>
+              <p style="margin: 15px;">Fernando de Noronha - Pernanbuco - Brasil</p>
+            </div>
+            <button-ver> Ver Mais </button-ver>
+          </article>
+          <article>
+            <img src="imagens/riodejaneiro.jpg" width="100%" height="50%"  alt="Sample photo">
+            <div class="text">
+              <h3 style="margin: 15px;">Ipanema</h3>
+              <p style="margin: 15px;">Rio de Janeiro - Rio de Janeiro - Brasil</p>
+            </div>
+            <button-ver> Ver Mais </button-ver>
+          </article>
+          <article>
+            <img src="imagens/parati.jpg" width="100%" height="50%"  alt="Sample photo">
+            <div class="text">
+              <h3 style="margin: 15px;"> Centro Histórico de Parati</h3>
+              <p style="margin: 15px;">Parati - Rio de Janeiro - Brasil</p>
+            </div>
+            <button-ver> Ver Mais </button-ver>
+          </article>
+          <article>
+            <img src="imagens/manaus.jpg" width="100%" height="50%" alt="Sample photo">
+            <div class="text">
+              <h3 style="margin: 15px;"> Centro Histórico de Manaus</h3>
+              <p style="margin: 15px;">Manaus - Amazonas - Brasil</p>
+            </div>
+            <button-ver> Ver Mais </button-ver>
+          </article>
+          <article>
+            <img src="imagens/riograndedosul.jpg" width="100%" height="50%" alt="Sample photo">
+            <div class="text">
+              <h3 style="margin: 15px;"> Vale dos Vinhedos</h3>
+              <p style="margin: 15px;">Bento Gonçalves - Rio Grande do Sul - Brasil</p>
+            </div>
+            <button-ver> Ver Mais </button-ver>
+          </article>
+        </main>
+      </div>
+
+
+  <!-- Promocoes-->
+      <h2 style=" text-align: center;margin-bottom: 90px;"> CUPONS</h2>
+      <div style="margin-bottom: 90px;" class="row">
+        <div class="column">
+          <div class="card">
+            <h3 style="padding: 3px;">Aniverário</h3>
+            <p style="padding: 3px;">Código:</p>
+            <p style="padding: 3px;">2021</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <h3 style="padding: 3px;">Convênio</h3>
+            <p style="padding: 3px;">Código:</p>
+            <p style="padding: 3px;">2022</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3 style="padding: 3px;">Bodas de Casamento</h3>
+            <p style="padding: 3px;">Código:</p>
+            <p style="padding: 3px;">2023</p>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3 style="padding: 3px;">Compra em Grupo</h3>
+            <p style="padding: 3px;" >Código:</p>
+            <p style="padding: 3px;" >2024</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+
+    
+</body>
+
+  <!-- Footer-->
+  <footer>
+    <span>Todos os direitos reservados &#169;</span>
+  </footer>
+
+</html>
